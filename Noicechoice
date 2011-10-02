@@ -1,0 +1,40 @@
+most popular question appear first?
+i.e. pepsi or coke
+have classes associated? i.e sugary, non-sugar, soft drink, water, etc. 
+
+have highest picked go against next highest picked
+all products/companies begin with a set value of 1000
+for every click on company, increase by 10
+for every non-click, decrement by 5
+
+give all companies a start value of x (1000)
+each company has a unique ID which has modified x value
+
+var x = 1000; 
+
+
+function scoreSetter() {
+	request a (company 1) and b (company 2)'s company score 
+	if a (clicked):
+		increase x value by 10 and save score
+		decrease b's x value by 5 and save score
+	if b (clicked):
+		increase y value by 10 and save score
+		decrease y value by 5 and save score
+	else:
+		go to next question
+	}
+	
+function timeWait() {
+	initial time at 5 
+	output time for user to see
+	block user interaction until initialTime = 0; disable if iniTime > 0
+	decrement time to 0
+	allow user to interact once initialTime = 0; enable if iniTime == 0
+	hide timer
+	
+function questionAppear() {
+	grab an a out of the choices
+	grab a b out of the choices (-x)
+	output a to the position and b to the position
+	
