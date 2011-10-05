@@ -1,0 +1,14 @@
+Giving StartupDigest's Party Form algorithm question a shot: "Bonus: Enter an algorithm to define the connection between office awesomeness and its proximity to a pool, the size of the LCD TV with an Xbox/Kinect in it, and the number of people in it who like building cool things." 
+ 
+proximity from office to pool || size of lcd tv with xbox || number of people who like building cool things = awesomeness
+ 
+d(office, pool) || area of game area || Rv = awesomeness
+ 
+v = d(office, pool) = sqr((pool(x) - office(x))^2 + (pool(y) - office(y))^2)
+ 
+a = area of game area = lw //lol
+ 
+Rv = 1 / 1 + (10/ L * P) // L = 1-10 determined by level of like; P = amount of people
+//multiply last answer (should be .## and multiply by 100)
+ 
+Lim as n approaches infinity( v * a / Rv ) = office awesomeness
